@@ -55,18 +55,30 @@ public static void main(String[] args){
 
 // System.out.println(ans);
 
-int ans=0;
-for(int i=0;i<=n;i++){
-if(i%2==0){
-ans-=i;
-}
-else{
-  ans+=i;
-}
+// int ans=0;
+// for(int i=0;i<=n;i++){
+// if(i%2==0){
+// ans-=i;
+// }
+// else{
+//   ans+=i;
+// }
 
 
+// }
+// System.out.println(ans);
+
+
+
+
+
+int fac=1;
+
+for(int i=1;i<=n;i++){
+   fac=fac*i;
+   System.out.println("Factorial of"+ " "+i+":"+fac);
 }
-System.out.println(ans);
+
 
 
 
