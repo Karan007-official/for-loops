@@ -44,17 +44,29 @@ public static void main(String[] args){
 
 
 
+// int ans=0;
+
+// while(n>0){
+//   int digit=n%10;
+//   ans =ans*10+digit;
+// n/=10;
+
+// }
+
+// System.out.println(ans);
+
 int ans=0;
-
-while(n>0){
-  int digit=n%10;
-  ans =ans*10+digit;
-n/=10;
-
+for(int i=0;i<=n;i++){
+if(i%2==0){
+ans-=i;
+}
+else{
+  ans+=i;
 }
 
-System.out.println(ans);
 
+}
+System.out.println(ans);
 
 
 
