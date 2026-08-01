@@ -5,7 +5,8 @@ public class count {
 public static void main(String[] args){
   Scanner sc=new Scanner(System.in);
 
-  int n =sc.nextInt();
+  int a =sc.nextInt();
+  int b =sc.nextInt();
   // int num=0;
   // int original=n;
 
@@ -72,14 +73,25 @@ public static void main(String[] args){
 
 
 
-int fac=1;
+// int fac=1;
 
-for(int i=1;i<=n;i++){
-   fac=fac*i;
-   System.out.println("Factorial of"+ " "+i+":"+fac);
+// for(int i=1;i<=n;i++){
+//    fac=fac*i;
+//    System.out.println("Factorial of"+ " "+i+":"+fac);
+// }
+
+
+
+int ans=1;
+
+for(int i=1;i<=b;i++){
+
+  ans=ans*a;
+
+
+
 }
-
-
+System.out.println(ans);
 
 
 
