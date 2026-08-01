@@ -89,6 +89,7 @@ for(int i=1;i<=b;i++){
   ans=ans*a;
 
 
+  
 
 }
 System.out.println(ans);
